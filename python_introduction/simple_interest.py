@@ -7,7 +7,7 @@
 # Print the calculated interest in a format: The simple interest is: [interest].
 
 #Defining variables
-principal = 1_000
+principal = 1000
 rate = 0.05
 time = 3
 

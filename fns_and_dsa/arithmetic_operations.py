@@ -1,4 +1,4 @@
-def perform_operation(num1 : float, num2 : float, operation : str):
+def perform_operation(num1 , num2 , operation):
     def valid(operation):
         oper = ("add", "subtract", "multiply", "divide")
         return True if operation in oper else False

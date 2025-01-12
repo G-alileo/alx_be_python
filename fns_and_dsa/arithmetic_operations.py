@@ -13,7 +13,7 @@ def perform_operation(num1, num2, operation):
             case "divide":
                 if (num1 != 0) and (num2 != 0):
                     return num1 / num2
-                elif num1 == 0 or num2 == 0:
+                else:
                     return "Error : can,t divide by zero"
             
     return "Error: Invalid operation"

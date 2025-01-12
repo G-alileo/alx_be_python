@@ -1,5 +1,6 @@
+oper = ("add", "subtract", "multiply", "divide")
+
 def perform_operation(num1 , num2 , operation):
-    oper = ("add", "subtract", "multiply", "divide")
     validity = True if operation in oper else False
     
     if validity == True:

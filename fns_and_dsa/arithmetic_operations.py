@@ -13,5 +13,4 @@ def perform_operation(num1 , num2 , operation):
             case "divide":
                 val = num1 / num2 if num2 != 0 else "Can't divide by zero"
                 return val
-    else:
-        print(f"{operation} is an invalid operation!")
+        return f"{operation} is an invalid operation!"

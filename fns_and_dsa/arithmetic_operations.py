@@ -1,6 +1,5 @@
-oper = ("add", "subtract", "multiply", "divide")
-
 def perform_operation(num1 , num2 , operation):
+    oper = ("add", "subtract", "multiply", "divide")
     validity = True if operation in oper else False
     
     if validity == True:
@@ -14,4 +13,5 @@ def perform_operation(num1 , num2 , operation):
             case "divide":
                 val = num1 / num2 if num2 != 0 else "Can't divide by zero"
                 return val
-        return f"{operation} is an invalid operation!"
+            
+    return "Error: Invalid operation"
